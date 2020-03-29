@@ -45,10 +45,10 @@
             </objects>
             <point key="canvasLocation" x="1072.8" y="88.605697151424295"/>
         </scene>
-        <!--Login Moview View Controller-->
+        <!--Login Movie View Controller-->
         <scene sceneID="kkz-eZ-aXZ">
             <objects>
-                <viewController id="7rG-FX-MGP" customClass="LoginMoviewViewController" customModule="IntroApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7rG-FX-MGP" customClass="LoginMovieViewController" customModule="IntroApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HrH-IZ-Dim">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -67,8 +67,8 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="login:" destination="7rG-FX-MGP" eventType="touchUpInside" id="xDI-zg-SdG"/>
-                                    <segue destination="VKl-JX-2qh" kind="show" id="Z9w-AD-q7K"/>
+                                    <action selector="login:" destination="7rG-FX-MGP" eventType="touchUpInside" id="Kly-wm-ndZ"/>
+                                    <segue destination="VKl-JX-2qh" kind="show" id="Cki-GZ-RDG"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -95,7 +95,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q6c-m3-xhR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2681" y="78"/>
+            <point key="canvasLocation" x="2663" y="89"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BJX-BC-kwN">

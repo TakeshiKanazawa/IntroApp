@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		394748EB24304C6D008368C7 /* Page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394748EA24304C6D008368C7 /* Page3ViewController.swift */; };
+		394748ED24304C9E008368C7 /* Page4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394748EC24304C9E008368C7 /* Page4ViewController.swift */; };
+		394748EF24304CD6008368C7 /* Page5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394748EE24304CD6008368C7 /* Page5ViewController.swift */; };
+		394748F124304CF1008368C7 /* Page6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394748F024304CF1008368C7 /* Page6ViewController.swift */; };
 		394B20EC242E36D000566A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B20EB242E36D000566A80 /* AppDelegate.swift */; };
 		394B20EE242E36D000566A80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B20ED242E36D000566A80 /* SceneDelegate.swift */; };
 		394B20F3242E36D000566A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394B20F1242E36D000566A80 /* Main.storyboard */; };
@@ -24,6 +28,7 @@
 		39927AF8242EF86F00B80043 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39927AF7242EF86F00B80043 /* Page1ViewController.swift */; };
 		39927AFA242F000E00B80043 /* NewsItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39927AF9242F000E00B80043 /* NewsItems.swift */; };
 		39927AFC242F0EF300B80043 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39927AFB242F0EF300B80043 /* WebViewController.swift */; };
+		39927AFE24304BF100B80043 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39927AFD24304BF100B80043 /* Page2ViewController.swift */; };
 		64049A61067E2B1EA540E142 /* Pods_IntroApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33FFA6F2CBE2A88B3A161333 /* Pods_IntroApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +36,10 @@
 		001BC87FB488448496D5FD29 /* Pods-IntroApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntroApp.release.xcconfig"; path = "Target Support Files/Pods-IntroApp/Pods-IntroApp.release.xcconfig"; sourceTree = "<group>"; };
 		26DFEC85B4B2F144C4BEA939 /* Pods-IntroApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntroApp.debug.xcconfig"; path = "Target Support Files/Pods-IntroApp/Pods-IntroApp.debug.xcconfig"; sourceTree = "<group>"; };
 		33FFA6F2CBE2A88B3A161333 /* Pods_IntroApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntroApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		394748EA24304C6D008368C7 /* Page3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3ViewController.swift; sourceTree = "<group>"; };
+		394748EC24304C9E008368C7 /* Page4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4ViewController.swift; sourceTree = "<group>"; };
+		394748EE24304CD6008368C7 /* Page5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page5ViewController.swift; sourceTree = "<group>"; };
+		394748F024304CF1008368C7 /* Page6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page6ViewController.swift; sourceTree = "<group>"; };
 		394B20E8242E36D000566A80 /* IntroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		394B20EB242E36D000566A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		394B20ED242E36D000566A80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +59,7 @@
 		39927AF7242EF86F00B80043 /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
 		39927AF9242F000E00B80043 /* NewsItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItems.swift; sourceTree = "<group>"; };
 		39927AFB242F0EF300B80043 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		39927AFD24304BF100B80043 /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +137,11 @@
 				394B2114242EF0CE00566A80 /* BaseViewController.swift */,
 				39927AF7242EF86F00B80043 /* Page1ViewController.swift */,
 				39927AFB242F0EF300B80043 /* WebViewController.swift */,
+				39927AFD24304BF100B80043 /* Page2ViewController.swift */,
+				394748EA24304C6D008368C7 /* Page3ViewController.swift */,
+				394748EC24304C9E008368C7 /* Page4ViewController.swift */,
+				394748EE24304CD6008368C7 /* Page5ViewController.swift */,
+				394748F024304CF1008368C7 /* Page6ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -272,9 +287,14 @@
 				394B2115242EF0CE00566A80 /* BaseViewController.swift in Sources */,
 				39927AFA242F000E00B80043 /* NewsItems.swift in Sources */,
 				394B210F242E3CD800566A80 /* IntroViewController.swift in Sources */,
+				394748EB24304C6D008368C7 /* Page3ViewController.swift in Sources */,
 				394B2111242E4B1500566A80 /* LoginMovieViewController.swift in Sources */,
+				394748EF24304CD6008368C7 /* Page5ViewController.swift in Sources */,
+				39927AFE24304BF100B80043 /* Page2ViewController.swift in Sources */,
 				39927AF8242EF86F00B80043 /* Page1ViewController.swift in Sources */,
 				394B20EC242E36D000566A80 /* AppDelegate.swift in Sources */,
+				394748ED24304C9E008368C7 /* Page4ViewController.swift in Sources */,
+				394748F124304CF1008368C7 /* Page6ViewController.swift in Sources */,
 				394B20EE242E36D000566A80 /* SceneDelegate.swift in Sources */,
 				39927AFC242F0EF300B80043 /* WebViewController.swift in Sources */,
 			);

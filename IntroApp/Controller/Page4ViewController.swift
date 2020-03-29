@@ -9,7 +9,7 @@
 import UIKit
 import SegementSlide
 
-class Page1ViewController: UITableViewController,SegementSlideContentScrollViewDelegate,XMLParserDelegate {
+class Page4ViewController: UITableViewController,SegementSlideContentScrollViewDelegate,XMLParserDelegate {
     
     //XMLParserのインスタンスを作成する
     var parser = XMLParser()
@@ -24,7 +24,7 @@ class Page1ViewController: UITableViewController,SegementSlideContentScrollViewD
 
         tableView.backgroundColor = .clear
         //画像をtableviewの下に置く
-        let image = UIImage(named: "0")
+        let image = UIImage(named: "3")
         let imagaView = UIImageView(frame: CGRect(x: 0, y: 0, width: self.tableView.frame.size.width, height: self.tableView.frame.size.height))
         
         imagaView.image = image
@@ -118,7 +118,7 @@ class Page1ViewController: UITableViewController,SegementSlideContentScrollViewD
         webViewController.modalTransitionStyle = .crossDissolve
         let newsItem = newsItems[indexPath.row]
         UserDefaults.standard.set(newsItem.url, forKey: "url")
-        present(webViewController,animated: true,completion: nil)
+        
     }
 
 }

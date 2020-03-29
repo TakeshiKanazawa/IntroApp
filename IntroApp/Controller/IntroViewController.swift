@@ -33,10 +33,7 @@ class IntroViewController: UIViewController,UIScrollViewDelegate {
             animationView.loopMode = .loop
             animationView.play()
             scrollView.addSubview(animationView)
-            
         }
-        
-        
     }
     
 

@@ -17,31 +17,43 @@ class BaseViewController: SegementSlideViewController {
         reloadData()
         scrollToSlide(at: 0, animated: true)
     }
-    
-    override var headerView: UIView?{
+
+    override var headerView: UIView? {
         let headerview = UIImageView()
         //falseにしたらどうなる？？
         headerview.isUserInteractionEnabled = true
         headerview.contentMode = .scaleToFill
-        headerview.image = UIImage(named: "")
+        headerview.image = UIImage(named: "header")
         headerview.translatesAutoresizingMaskIntoConstraints = false
-        let headerHeight:CGFloat
-        headerHeight = view.bounds.height/4 + topLayoutGuide.length
+        let headerHeight: CGFloat
+        headerHeight = view.bounds.height / 4 + topLayoutGuide.length
         headerview.heightAnchor.constraint(equalToConstant: headerHeight).isActive = true
         return headerview
     }
-    
+
     override var titlesInSwitcher: [String] {
-        return ["Top","AbemaNew","Yahoo!","IT","Buzz","CNN"]
+        return ["Top", "AbemaNew", "Yahoo!", "IT", "Buzz", "CNN"]
     }
-    
+
     override func segementSlideContentViewController(at index: Int) -> SegementSlideContentScrollViewDelegate? {
         switch index {
+            
         case 0:
-            return
-     
+            return Page1ViewController()
+        case 1:
+            return Page2ViewController()
+        case 2:
+            return Page3ViewController()
+        case 3:
+            return Page4ViewController()
+        case 4:
+            return Page5ViewController()
+        case 5:
+            return Page6ViewController()
+            
+        default:return Page1ViewController()
         }
     }
-    
+
 
 }
