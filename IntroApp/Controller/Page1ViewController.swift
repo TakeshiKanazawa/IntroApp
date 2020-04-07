@@ -31,7 +31,7 @@ class Page1ViewController: UITableViewController,SegementSlideContentScrollViewD
         self.tableView.backgroundView = imagaView
         
         //XMLパース
-        let urlString = "https://news.yahoo.co.jp/pickup/rss.xml"
+        let urlString = "https://number.bunshun.jp/list/rsssports?w=%E3%83%9C%E3%82%AF%E3%82%B7%E3%83%B3%E3%82%B0"
         let url:URL = URL(string: urlString)!
         parser = XMLParser(contentsOf: url)!
         parser.delegate = self

@@ -20,8 +20,8 @@ class BaseViewController: SegementSlideViewController {
 
     override var headerView: UIView? {
         let headerview = UIImageView()
-        //falseにしたらどうなる？？
-        headerview.isUserInteractionEnabled = true
+        //使わない？
+        //headerview.isUserInteractionEnabled = true
         headerview.contentMode = .scaleToFill
         headerview.image = UIImage(named: "header")
         headerview.translatesAutoresizingMaskIntoConstraints = false
@@ -37,7 +37,7 @@ class BaseViewController: SegementSlideViewController {
 
     override func segementSlideContentViewController(at index: Int) -> SegementSlideContentScrollViewDelegate? {
         switch index {
-            
+
         case 0:
             return Page1ViewController()
         case 1:
@@ -50,8 +50,8 @@ class BaseViewController: SegementSlideViewController {
             return Page5ViewController()
         case 5:
             return Page6ViewController()
-            
-        default:return Page1ViewController()
+
+        default: return Page1ViewController()
         }
     }
 
